@@ -14,7 +14,7 @@ Supported Containers:
 
 P.S
 
-Also adapter supported PSR 11
+Also, adapter supports PSR 11
 
 Getting Started
 ---------------
