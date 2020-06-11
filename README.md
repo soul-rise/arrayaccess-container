@@ -9,12 +9,12 @@ You can use your container as array
 You can use this adapter for example for library [davedevelopment/phpmig][phpmig]
 or you are like array
 
-P.S
-
-Also supported PSR 11
-
 Supported Containers: 
 * [laminas/laminas-servicemanager][servicemanager]
+
+P.S
+
+Also adapter supported PSR 11
 
 Getting Started
 ---------------
