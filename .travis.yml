@@ -25,4 +25,4 @@ install:
 jobs:
   include:
     - stage: style check
-      script: composer run style:check
+      script: composer run cs-check
