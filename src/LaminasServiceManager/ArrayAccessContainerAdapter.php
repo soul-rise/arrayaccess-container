@@ -46,7 +46,7 @@ class ArrayAccessContainerAdapter implements ContainerInterface, ArrayAccess
      *
      * @return bool
      */
-    public function has($id)
+    public function has($id): bool
     {
         return $this->serviceManager->has($id);
     }
@@ -59,7 +59,7 @@ class ArrayAccessContainerAdapter implements ContainerInterface, ArrayAccess
      *
      * @return bool
      */
-    public function offsetExists($offset)
+    public function offsetExists($offset): bool
     {
         return $this->serviceManager->has($offset);
     }
@@ -82,9 +82,9 @@ class ArrayAccessContainerAdapter implements ContainerInterface, ArrayAccess
      * @param mixed $offset
      * @param mixed $value
      */
-    public function offsetSet($offset, $value)
+    public function offsetSet($offset, $value): void
     {
-        return $this->serviceManager->setService($offset, $value);
+        $this->serviceManager->setService($offset, $value);
     }
 
     /**
@@ -93,7 +93,7 @@ class ArrayAccessContainerAdapter implements ContainerInterface, ArrayAccess
      * @deprecated
      * @param mixed $offset
      */
-    public function offsetUnset($offset)
+    public function offsetUnset($offset): void
     {
         // noop
     }
