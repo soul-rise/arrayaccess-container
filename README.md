@@ -1,6 +1,6 @@
 # arrayaccess-container
 [![Latest Version](https://img.shields.io/github/release/soul-rise/arrayaccess-container)](https://github.com/soul-rise/arrayaccess-container/releases)
-[![Build Status](https://img.shields.io/travis/soul-rise/arrayaccess-container)](https://travis-ci.org/github/soul-rise/arrayaccess-container/)
+[![Build Status](https://travis-ci.org/soul-rise/arrayaccess-container.svg?branch=master)](https://travis-ci.org/soul-rise/arrayaccess-container)
 [![Total Downloads](https://img.shields.io/packagist/dt/soul-rise/arrayaccess-container.svg)](https://packagist.org/packages/soul-rise/arrayaccess-container)
 
 What is it?

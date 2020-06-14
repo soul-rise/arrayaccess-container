@@ -1,7 +1,7 @@
 {
     "name": "soul-rise/arrayaccess-container",
     "description": "ArrayAccess adapter for laminas/laminas-servicemanager",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "keywords": [
         "laminas",
